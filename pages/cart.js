@@ -1,6 +1,6 @@
 import Header from './components/Header';
 import { useSelector, useDispatch } from 'react-redux';
-import { removeFromCart, updateQuantity } from '../lib/reducer';
+import { removeFromCart } from '../lib/reducer';
 export default function Home() {
   const totalValue = useSelector((state) => state.totalValue);
   const totalItems = useSelector((state) => state.totalItems);
